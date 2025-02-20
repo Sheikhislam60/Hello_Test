@@ -8,5 +8,8 @@ def factorial(n):
     for i in range(2, n + 1):
         result *= i
     return result
-
-print(factorial(5))  
+    
+# Get input from the user
+if __name__ == "__main__":
+    n = int(input("Enter a number to find its factorial: "))
+    print(f"The factorial of {n} is {factorial(n)}") 
